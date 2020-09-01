@@ -3,7 +3,7 @@
     web:
       build:
         context: .
-        dockerfile: Dockerfile-develop.dev
+        dockerfile: Dockerfile.dev
       ports:
         - "3001:3000"
       tty: true  
